@@ -31,7 +31,7 @@ export default {
     <div class="col-10 bg-primary content">
       <!--Header-->
       <div class="row bg-light header">
-        <div v-if="true" class="col-4">
+        <div class="col-4">
           <RouterLink class="logo d-md-block d-none" to="/">Облако</RouterLink>
         </div>
         <div class="col-4">
