@@ -1,35 +1,14 @@
-# coursework
+# Курсовой проект студента гр. 8И31 Косинова Константина
 
-This template should help get you started developing with Vue 3 in Vite.
+## Описание
 
-## Recommended IDE Setup
+Работа написана на Vue3. Представляет собой веб-приложение для хранения документов в корпоративной сети. Имеет поиск по документам (по названию, по описанию и по отделу).
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Страницы
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+### Главная
+Содержит по 4 недавно добавленных документа как по всем отделам, так и по отделу пользователя.
+### Страница "Мой отдел"
+Содержит все документы отдела пользователя.
+### Страница "Отделы"
+Содержит по 4 последних документа от каждого отдела. Можно перейти от заголовка отдела к его странице для просмотра всех документов отдела.
